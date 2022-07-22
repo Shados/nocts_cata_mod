@@ -248,6 +248,38 @@
   {
     "type": "vehicle_part",
     "copy-from": "turret",
+    "id": "laser_akro_smg_t",
+    "looks_like": "laser_rifle",
+    "name": "mounted AKRO-388 laser SMG",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "akro_laser_smg",
+    "breaks_into": [ { "item": "akro_laser_smg", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
+    "id": "laser_akro_smg_t_ups",
+    "looks_like": "laser_rifle",
+    "name": "mounted AKRO-388 laser SMG (UPS)",
+    "color": "yellow",
+    "broken_symbol": "#",
+    "broken_color": "yellow",
+    "item": "akro_laser_smg_ups",
+    "breaks_into": [ { "item": "akro_laser_smg_ups", "prob": 50 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 4 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "copy-from": "turret",
     "id": "laser_lmg_t",
     "looks_like": "laser_cannon",
     "name": "mounted KRX-108 laser LMG",
